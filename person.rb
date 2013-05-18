@@ -14,7 +14,7 @@ class Person
   # @param first_name [String] 名前
   # @param last_name [String] 苗字
   # @param gender [Symbol] 性別
-  # @param age [Integer] 年齢
+  # @param age [Number] 年齢
   #
   # @example
   #  person = Person.new('ひろゆき', '松本', :man, 17)
