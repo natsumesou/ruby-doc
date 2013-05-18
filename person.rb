@@ -4,7 +4,7 @@ class Person
 
   attr_reader :first_name, :last_name, :gender, :age
 
-  def initialize first_name, last_name, gender = nil,age = nil
+  def initialize first_name, last_name, gender = nil, age = nil
     @first_name = first_name
     @last_name = last_name
     @gender = gender
