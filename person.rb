@@ -18,4 +18,8 @@ class Person
   def woman?
     @gender == :woman
   end
+
+  private
+  def test
+  end
 end
