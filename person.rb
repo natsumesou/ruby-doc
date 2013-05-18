@@ -15,11 +15,11 @@ class Person
     @gender == :man
   end
 
-  def woman?
-    @gender == :woman
+  def is_man?
+    @gender == :man
   end
 
-  private
-  def test
+  def woman?
+    @gender == :woman
   end
 end
